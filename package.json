@@ -1,0 +1,45 @@
+{
+  "name": "dynamic-zerodev-bug-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dynamic-labs/ethereum": "^2.0.8",
+    "@dynamic-labs/ethereum-aa": "^2.0.8",
+    "@dynamic-labs/sdk-react-core": "^2.0.8",
+    "@dynamic-labs/wagmi-connector": "^2.0.8",
+    "@tanstack/react-query": "^5.40.0",
+    "@zerodev/ecdsa-validator": "^5.1.0",
+    "@zerodev/presets": "~5.1.0",
+    "@zerodev/sdk": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "permissionless": "^0.1.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "viem": "^2.7.6",
+    "wagmi": "^2.5.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
